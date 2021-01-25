@@ -1,0 +1,1 @@
+{"uuid":"d65bbf3e-98b5-4bf2-8050-c98845492f5a","name":"com.qa.tests.FlightMultitrip","children":["5c038620-9f7d-4062-8177-48831e8aba77"],"befores":[],"afters":[{"name":"tearDown","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1611118531495,"stop":1611118531495}],"links":[],"start":1611118531201,"stop":1611118531666}

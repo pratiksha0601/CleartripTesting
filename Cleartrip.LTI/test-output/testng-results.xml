@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="22" failed="7" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The Mobile number entered is valid]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Clear Trip credentials(Verified by reading the error message)]]>
+    </line>
+    <line>
+      <![CDATA[The Mobile number entered is invalid create defect report]]>
+    </line>
+    <line>
+      <![CDATA[Clear Trip account creation was successful]]>
+    </line>
+    <line>
+      <![CDATA[Invalid FB credentials(Verified by reading the error message)]]>
+    </line>
+    <line>
+      <![CDATA[Invalid FB credentials(Verified by reading the error message)]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Clear Trip credentials(Verified by reading the error message)]]>
+    </line>
+    <line>
+      <![CDATA[FB registration Successful(Verified by reading URl)]]>
+    </line>
+    <line>
+      <![CDATA[Valid FB credentials(Verified by reading the URL)]]>
+    </line>
+    <line>
+      <![CDATA[Sorry, but we can't continue until you fix everything that's marked in RED]]>
+    </line>
+    <line>
+      <![CDATA[Sorry, but we can't continue until you fix everything that's marked in RED]]>
+    </line>
+    <line>
+      <![CDATA[A list of flights is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-01-21T13:37:32 IST" name="Test Automation ClearTrip" finished-at="2021-01-21T13:44:25 IST" duration-ms="412819">
+    <groups>
+    </groups>
+    <test started-at="2021-01-21T13:37:32 IST" name="hotels and trains(edge)" finished-at="2021-01-21T13:39:50 IST" duration-ms="137523">
+      <class name="com.qa.tests.HotelsAlternateScript">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:37:32 IST" name="setUp" finished-at="2021-01-21T13:37:59 IST" duration-ms="26522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:37:59 IST" name="setup" finished-at="2021-01-21T13:37:59 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hotelsPageLoading()[pri:1, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:00 IST" name="hotelsPageLoading" finished-at="2021-01-21T13:38:16 IST" duration-ms="15948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelsPageLoading -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:16 IST" name="setup" finished-at="2021-01-21T13:38:16 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cityAndDatesSelection(java.lang.String)[pri:2, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:16 IST" name="cityAndDatesSelection" finished-at="2021-01-21T13:38:23 IST" duration-ms="6526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityAndDatesSelection -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:23 IST" name="setup" finished-at="2021-01-21T13:38:23 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="travellerAndRoomCount(int, int, int, java.lang.String)[pri:3, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:23 IST" name="travellerAndRoomCount" data-provider="countDetails" finished-at="2021-01-21T13:38:32 IST" duration-ms="9239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[More travellers...]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerAndRoomCount -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:32 IST" name="setup" finished-at="2021-01-21T13:38:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hotelAndRoomSelect()[pri:4, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:32 IST" name="hotelAndRoomSelect" finished-at="2021-01-21T13:38:53 IST" duration-ms="20820" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'AyushiLaptop', ip: '10.10.10.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:57079}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir8136_213549879}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: a7c4ce7ec293502035b20c6ce846761c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'AyushiLaptop', ip: '10.10.10.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:57079}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir8136_213549879}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: a7c4ce7ec293502035b20c6ce846761c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.qa.pages.Hotelspages.searchHotel(Hotelspages.java:117)
+at com.qa.tests.HotelsAlternateScript.hotelAndRoomSelect(HotelsAlternateScript.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelAndRoomSelect -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:53 IST" name="setup" finished-at="2021-01-21T13:38:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="travellerDetailsEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:38:53 IST" name="travellerDetailsEntry" data-provider="testData" finished-at="2021-01-21T13:39:04 IST" duration-ms="10051" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9243567785]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30 min late]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"contactFirstName"}
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'AyushiLaptop', ip: '10.10.10.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:57079}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir8136_213549879}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: a7c4ce7ec293502035b20c6ce846761c
+*** Element info: {Using=id, value=contactFirstName}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"contactFirstName"}
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'AyushiLaptop', ip: '10.10.10.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:57079}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir8136_213549879}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: a7c4ce7ec293502035b20c6ce846761c
+*** Element info: {Using=id, value=contactFirstName}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.clear(Unknown Source)
+at com.qa.pages.Hotelspages.nameInValidEntry(Hotelspages.java:202)
+at com.qa.tests.HotelsAlternateScript.travellerDetailsEntry(HotelsAlternateScript.java:126)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerDetailsEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.HotelsAlternateScript@7a362b6b]" started-at="2021-01-21T13:39:04 IST" name="tearDown" finished-at="2021-01-21T13:39:08 IST" duration-ms="4442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HotelsAlternateScript -->
+      <class name="com.qa.tests.Trainsscripts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:37:32 IST" name="setUp" finished-at="2021-01-21T13:38:00 IST" duration-ms="27284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:38:00 IST" name="setUp" finished-at="2021-01-21T13:38:00 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clearTripLogin()[pri:1, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:38:00 IST" name="clearTripLogin" finished-at="2021-01-21T13:38:06 IST" duration-ms="6342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTripLogin -->
+        <test-method signature="Searchtrains(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:38:14 IST" name="Searchtrains" data-provider="test" finished-at="2021-01-21T13:39:00 IST" duration-ms="45412" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijayawada Junction (BZA)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijayawada Junction (BZA)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AC First Class (1A)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.Trainsscripts.Searchtrains(Trainsscripts.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchtrains -->
+        <test-method signature="Searchingtrains(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:39:00 IST" name="Searchingtrains" data-provider="testData" finished-at="2021-01-21T13:39:22 IST" duration-ms="21573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad Decan (HYB)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai Central (BCT)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AC First Class (1A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchingtrains -->
+        <test-method signature="Localtrain(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:39:22 IST" name="Localtrain" data-provider="LData" finished-at="2021-01-21T13:39:48 IST" duration-ms="25872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai Central (BCT)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai Central (BCT)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AC First Class (1A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Localtrain -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.Trainsscripts@60df60da]" started-at="2021-01-21T13:39:48 IST" name="tearDown" finished-at="2021-01-21T13:39:50 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.Trainsscripts -->
+      <class name="com.qa.tests.Hotelstestscripts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:37:32 IST" name="setUp" finished-at="2021-01-21T13:38:00 IST" duration-ms="27414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:00 IST" name="setup" finished-at="2021-01-21T13:38:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hotelsPageLoading()[pri:1, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:00 IST" name="hotelsPageLoading" finished-at="2021-01-21T13:38:22 IST" duration-ms="21937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelsPageLoading -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:22 IST" name="setup" finished-at="2021-01-21T13:38:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cityAndDatesSelection(java.lang.String)[pri:2, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:22 IST" name="cityAndDatesSelection" finished-at="2021-01-21T13:38:27 IST" duration-ms="4508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityAndDatesSelection -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:27 IST" name="setup" finished-at="2021-01-21T13:38:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="travellerAndRoomCount(int, int, int, java.lang.String)[pri:3, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:27 IST" name="travellerAndRoomCount" data-provider="countDetails" finished-at="2021-01-21T13:38:30 IST" duration-ms="3034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[More travellers...]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerAndRoomCount -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:30 IST" name="setup" finished-at="2021-01-21T13:38:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hotelAndRoomSelect()[pri:4, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:38:30 IST" name="hotelAndRoomSelect" finished-at="2021-01-21T13:39:38 IST" duration-ms="67880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelAndRoomSelect -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:39:38 IST" name="setup" finished-at="2021-01-21T13:39:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="travellerDetailsEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:39:38 IST" name="travellerDetailsEntry" data-provider="testData" finished-at="2021-01-21T13:39:38 IST" duration-ms="491" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.243567678E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30 min late]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.tests.Hotelstestscripts.travellerDetailsEntry(Hotelstestscripts.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerDetailsEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.Hotelstestscripts@2bb3058]" started-at="2021-01-21T13:39:38 IST" name="tearDown" finished-at="2021-01-21T13:39:43 IST" duration-ms="4583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.Hotelstestscripts -->
+    </test> <!-- hotels and trains(edge) -->
+    <test started-at="2021-01-21T13:39:51 IST" name="SignIn and register(edge)" finished-at="2021-01-21T13:42:14 IST" duration-ms="142994">
+      <class name="com.qa.tests.FbSignInScripts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:39:51 IST" name="setUp" finished-at="2021-01-21T13:40:23 IST" duration-ms="32076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:40:23 IST" name="setUp" finished-at="2021-01-21T13:40:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithFb(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:40:23 IST" name="loginWithFb" data-provider="testData" finished-at="2021-01-21T13:41:09 IST" duration-ms="45366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravibaloo123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid FB credentials(Verified by reading the error message)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithFb -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:41:09 IST" name="afterMethod" finished-at="2021-01-21T13:41:38 IST" duration-ms="29049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:41:38 IST" name="setUp" finished-at="2021-01-21T13:41:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithFb(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:41:38 IST" name="loginWithFb" data-provider="testData" finished-at="2021-01-21T13:42:07 IST" duration-ms="29139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravibaloo123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid FB credentials(Verified by reading the URL)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithFb -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:42:07 IST" name="afterMethod" finished-at="2021-01-21T13:42:12 IST" duration-ms="5352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.FbSignInScripts@76f4b65]" started-at="2021-01-21T13:42:12 IST" name="tearDown" finished-at="2021-01-21T13:42:14 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FbSignInScripts -->
+      <class name="com.qa.tests.FbRegisterScripts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:39:51 IST" name="setUp" finished-at="2021-01-21T13:40:17 IST" duration-ms="26293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:40:17 IST" name="setUp" finished-at="2021-01-21T13:40:18 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithFb(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:40:18 IST" name="signUpWithFb" data-provider="testData1" finished-at="2021-01-21T13:41:06 IST" duration-ms="48407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravibaloo123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid FB credentials(Verified by reading the error message)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUpWithFb -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:41:06 IST" name="afterMethod" finished-at="2021-01-21T13:41:31 IST" duration-ms="25377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:41:31 IST" name="setUp" finished-at="2021-01-21T13:41:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithFb(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:41:31 IST" name="signUpWithFb" data-provider="testData1" finished-at="2021-01-21T13:41:58 IST" duration-ms="26541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravibaloo123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[FB registration Successful(Verified by reading URl)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUpWithFb -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:41:58 IST" name="afterMethod" finished-at="2021-01-21T13:42:01 IST" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.FbRegisterScripts@34c01041]" started-at="2021-01-21T13:42:01 IST" name="tearDown" finished-at="2021-01-21T13:42:03 IST" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FbRegisterScripts -->
+      <class name="com.qa.tests.SignInScripts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:39:51 IST" name="setUp" finished-at="2021-01-21T13:40:19 IST" duration-ms="27661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:40:19 IST" name="setUp" finished-at="2021-01-21T13:40:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clearTripLogin(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:40:19 IST" name="clearTripLogin" data-provider="testData" finished-at="2021-01-21T13:40:35 IST" duration-ms="16432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravibaloo123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Clear Trip credentials(Verified by reading the error message)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clearTripLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:40:36 IST" name="afterMethod" finished-at="2021-01-21T13:41:13 IST" duration-ms="36866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:41:13 IST" name="setUp" finished-at="2021-01-21T13:41:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clearTripLogin(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:41:13 IST" name="clearTripLogin" data-provider="testData" finished-at="2021-01-21T13:41:20 IST" duration-ms="7458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravibaloo123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Clear Trip credentials(Verified by reading the error message)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clearTripLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:41:20 IST" name="afterMethod" finished-at="2021-01-21T13:41:44 IST" duration-ms="24066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.SignInScripts@22f31dec]" started-at="2021-01-21T13:41:44 IST" name="tearDown" finished-at="2021-01-21T13:41:49 IST" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.SignInScripts -->
+      <class name="com.qa.tests.RegisterScripts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:39:51 IST" name="setUp" finished-at="2021-01-21T13:40:18 IST" duration-ms="26945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:40:18 IST" name="setUp" finished-at="2021-01-21T13:40:18 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithClearTrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:40:18 IST" name="signUpWithClearTrip" data-provider="testData" finished-at="2021-01-21T13:40:30 IST" duration-ms="11595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abdgfjvlooo7ub@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ford]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India(+91)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9160894224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Mobile number entered is valid]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUpWithClearTrip -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:40:30 IST" name="afterMethod" finished-at="2021-01-21T13:40:55 IST" duration-ms="25303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:40:55 IST" name="setUp" finished-at="2021-01-21T13:40:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithClearTrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:40:55 IST" name="signUpWithClearTrip" data-provider="testData" finished-at="2021-01-21T13:41:05 IST" duration-ms="9414" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anflppppinolg10oi9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ms]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Morgan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India(+91)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9885688rty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[The Mobile number entered is invalid create defect report]]>
+            </line>
+            <line>
+              <![CDATA[Clear Trip account creation was successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUpWithClearTrip -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:41:05 IST" name="afterMethod" finished-at="2021-01-21T13:41:15 IST" duration-ms="9918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.RegisterScripts@c94fd30]" started-at="2021-01-21T13:41:15 IST" name="tearDown" finished-at="2021-01-21T13:41:20 IST" duration-ms="5028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.RegisterScripts -->
+    </test> <!-- SignIn and register(edge) -->
+    <test started-at="2021-01-21T13:42:14 IST" name="Flights(edge)" finished-at="2021-01-21T13:44:04 IST" duration-ms="109320">
+      <class name="com.qa.tests.MultiTripFlights">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.MultiTripFlights@466276d8]" started-at="2021-01-21T13:42:14 IST" name="setUp" finished-at="2021-01-21T13:42:35 IST" duration-ms="21088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.MultiTripFlights@466276d8]" started-at="2021-01-21T13:42:35 IST" name="objectInitialization" finished-at="2021-01-21T13:42:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="searchFlightsMultiTrip(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.MultiTripFlights@466276d8]" started-at="2021-01-21T13:42:35 IST" name="searchFlightsMultiTrip" data-provider="datasetforsearch" finished-at="2021-01-21T13:42:40 IST" duration-ms="4296" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.MultiTripFlights.searchFlightsMultiTrip(MultiTripFlights.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsMultiTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.MultiTripFlights@466276d8]" started-at="2021-01-21T13:42:40 IST" name="tearDown" finished-at="2021-01-21T13:42:52 IST" duration-ms="12229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.MultiTripFlights -->
+      <class name="com.qa.tests.FlightOneway">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:14 IST" name="setUp" finished-at="2021-01-21T13:42:35 IST" duration-ms="20599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:35 IST" name="objectInitialization" finished-at="2021-01-21T13:42:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="searchFlightsoneway(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:35 IST" name="searchFlightsoneway" data-provider="datasetforsearch" finished-at="2021-01-21T13:42:47 IST" duration-ms="12116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23-02-2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sorry, but we can't continue until you fix everything that's marked in RED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlightsoneway -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:47 IST" name="objectInitialization" finished-at="2021-01-21T13:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="searchFlightsoneway(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:47 IST" name="searchFlightsoneway" data-provider="datasetforsearch" finished-at="2021-01-21T13:42:55 IST" duration-ms="7546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23-12-2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sorry, but we can't continue until you fix everything that's marked in RED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlightsoneway -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:55 IST" name="objectInitialization" finished-at="2021-01-21T13:42:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="bookFlightsoneway(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:42:55 IST" name="bookFlightsoneway" data-provider="datasetforbook" finished-at="2021-01-21T13:44:02 IST" duration-ms="66791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["22-02-2021"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1010101010]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Pratiksha]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightsoneway -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.FlightOneway@5ce8d869]" started-at="2021-01-21T13:44:02 IST" name="tearDown" finished-at="2021-01-21T13:44:04 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FlightOneway -->
+      <class name="com.qa.tests.FlightRoundtrip">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.FlightRoundtrip@528c868]" started-at="2021-01-21T13:42:14 IST" name="setUp" finished-at="2021-01-21T13:42:33 IST" duration-ms="18801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.FlightRoundtrip@528c868]" started-at="2021-01-21T13:42:33 IST" name="objectInitialization" finished-at="2021-01-21T13:42:33 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="searchFlightsRoundTrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.FlightRoundtrip@528c868]" started-at="2021-01-21T13:42:33 IST" name="searchFlightsRoundTrip" data-provider="datasetforsearch" finished-at="2021-01-21T13:43:05 IST" duration-ms="32116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["23-02-2021"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA["25-02-2021"]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[A list of flights is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlightsRoundTrip -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.FlightRoundtrip@528c868]" started-at="2021-01-21T13:43:05 IST" name="objectInitialization" finished-at="2021-01-21T13:43:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="bookFlightsRoundTrip()[pri:2, instance:com.qa.tests.FlightRoundtrip@528c868]" started-at="2021-01-21T13:43:05 IST" name="bookFlightsRoundTrip" finished-at="2021-01-21T13:43:16 IST" depends-on-methods="com.qa.tests.FlightRoundtrip.searchFlightsRoundTrip" duration-ms="10245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightsRoundTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.FlightRoundtrip@528c868]" started-at="2021-01-21T13:43:16 IST" name="tearDown" finished-at="2021-01-21T13:43:18 IST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FlightRoundtrip -->
+    </test> <!-- Flights(edge) -->
+    <test started-at="2021-01-21T13:44:04 IST" name="trains(chrome)" finished-at="2021-01-21T13:44:25 IST" duration-ms="21310">
+      <class name="com.qa.tests.MultiTripFlights">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.MultiTripFlights@38aa816f]" started-at="2021-01-21T13:44:04 IST" name="setUp" finished-at="2021-01-21T13:44:20 IST" duration-ms="16391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="objectInitialization()[pri:0, instance:com.qa.tests.MultiTripFlights@38aa816f]" started-at="2021-01-21T13:44:20 IST" name="objectInitialization" finished-at="2021-01-21T13:44:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitialization -->
+        <test-method signature="searchFlightsMultiTrip(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.MultiTripFlights@38aa816f]" started-at="2021-01-21T13:44:20 IST" name="searchFlightsMultiTrip" data-provider="datasetforsearch" finished-at="2021-01-21T13:44:23 IST" duration-ms="2727" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.MultiTripFlights.searchFlightsMultiTrip(MultiTripFlights.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsMultiTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.MultiTripFlights@38aa816f]" started-at="2021-01-21T13:44:23 IST" name="tearDown" finished-at="2021-01-21T13:44:25 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.MultiTripFlights -->
+    </test> <!-- trains(chrome) -->
+  </suite> <!-- Test Automation ClearTrip -->
+</testng-results>

@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>TestNG:  SignIn and register(edge)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SignIn and register(edge)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 21 13:39:51 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>142 seconds (142994 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.RegisterScripts.signUpWithClearTrip()'><b>signUpWithClearTrip</b><br>Test class: com.qa.tests.RegisterScripts<br>Parameters: anflppppinolg10oi9@gmail.com, Test@1234, Ms, Alice, Morgan, India(+91), 9885688rty<br/>
+<a href="#Output-278641475" onClick='toggleBox("Output-278641475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-278641475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-278641475">
+The Mobile number entered is invalid create defect report<br/>
+Clear Trip account creation was successful<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:98)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace278641475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace278641475'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>9</td>
+<td>com.qa.tests.RegisterScripts@c94fd30</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.SignInScripts.clearTripLogin()'><b>clearTripLogin</b><br>Test class: com.qa.tests.SignInScripts<br>Parameters: ravibaloo123@gmail.com, wrongpass<br/>
+<a href="#Output-1218137835" onClick='toggleBox("Output-1218137835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1218137835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1218137835">
+Invalid Clear Trip credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.qa.tests.SignInScripts@22f31dec</td></tr>
+<tr>
+<td title='com.qa.tests.SignInScripts.clearTripLogin()'><b>clearTripLogin</b><br>Test class: com.qa.tests.SignInScripts<br>Parameters: ravibaloo123@gmail.com, Test@1234<br/>
+<a href="#Output-2046233691" onClick='toggleBox("Output-2046233691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2046233691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2046233691">
+Invalid Clear Trip credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.SignInScripts@22f31dec</td></tr>
+<tr>
+<td title='com.qa.tests.FbSignInScripts.loginWithFb()'><b>loginWithFb</b><br>Test class: com.qa.tests.FbSignInScripts<br>Parameters: ravibaloo123@gmail.com, wrongpass<br/>
+<a href="#Output-1789921756" onClick='toggleBox("Output-1789921756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1789921756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1789921756">
+Invalid FB credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>com.qa.tests.FbSignInScripts@76f4b65</td></tr>
+<tr>
+<td title='com.qa.tests.FbSignInScripts.loginWithFb()'><b>loginWithFb</b><br>Test class: com.qa.tests.FbSignInScripts<br>Parameters: ravibaloo123@gmail.com, Test@1234<br/>
+<a href="#Output-942687135" onClick='toggleBox("Output-942687135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-942687135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-942687135">
+Valid FB credentials(Verified by reading the URL)<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.qa.tests.FbSignInScripts@76f4b65</td></tr>
+<tr>
+<td title='com.qa.tests.RegisterScripts.signUpWithClearTrip()'><b>signUpWithClearTrip</b><br>Test class: com.qa.tests.RegisterScripts<br>Parameters: abdgfjvlooo7ub@gmail.com, Test@1234, Mr, Henry, Ford, India(+91), 9160894224<br/>
+<a href="#Output-1513300741" onClick='toggleBox("Output-1513300741", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1513300741" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1513300741">
+The Mobile number entered is valid<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qa.tests.RegisterScripts@c94fd30</td></tr>
+<tr>
+<td title='com.qa.tests.FbRegisterScripts.signUpWithFb()'><b>signUpWithFb</b><br>Test class: com.qa.tests.FbRegisterScripts<br>Parameters: ravibaloo123@gmail.com, wrongpass<br/>
+<a href="#Output-1609321798" onClick='toggleBox("Output-1609321798", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609321798" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609321798">
+Invalid FB credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>com.qa.tests.FbRegisterScripts@34c01041</td></tr>
+<tr>
+<td title='com.qa.tests.FbRegisterScripts.signUpWithFb()'><b>signUpWithFb</b><br>Test class: com.qa.tests.FbRegisterScripts<br>Parameters: ravibaloo123@gmail.com, Test@1234<br/>
+<a href="#Output-1236870527" onClick='toggleBox("Output-1236870527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1236870527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1236870527">
+FB registration Successful(Verified by reading URl)<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.qa.tests.FbRegisterScripts@34c01041</td></tr>
+</table><p>
+</body>
+</html>

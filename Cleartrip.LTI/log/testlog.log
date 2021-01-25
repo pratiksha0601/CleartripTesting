@@ -1,0 +1,214 @@
+2021-01-20 20:55:20,537 - Testbase -INFO - HI I AM WORKING!!
+2021-01-20 20:55:42,835 - Testbase -INFO - Hotels page is loaded
+2021-01-20 20:55:50,909 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-20 20:55:57,666 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-20 20:56:10,082 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-20 20:57:11,711 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-20 20:57:25,884 - Testbase -INFO - User Successfully Logged in
+2021-01-20 20:57:36,391 - Testbase -INFO - Error msg for blank first name field is checked
+2021-01-20 21:00:10,518 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-20 21:00:21,130 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-20 21:00:24,452 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-20 21:01:47,245 - Testbase -INFO - HI I AM WORKING!!
+2021-01-20 23:39:02,006 - Testbase -INFO - HI I AM WORKING!!
+2021-01-20 23:39:12,584 - Testbase -INFO - Hotels page is loaded
+2021-01-20 23:39:16,283 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-20 23:39:23,444 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-20 23:40:57,915 - Testbase -INFO - Signin process started
+2021-01-20 23:40:59,952 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:41:05,315 - Testbase -INFO - Username entered
+2021-01-20 23:41:05,511 - Testbase -INFO - Password entered
+2021-01-20 23:41:06,043 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:41:06,278 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-20 23:41:43,720 - Testbase -INFO - Signin process started
+2021-01-20 23:41:44,009 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:41:48,214 - Testbase -INFO - Username entered
+2021-01-20 23:41:48,348 - Testbase -INFO - Password entered
+2021-01-20 23:41:48,707 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:41:49,001 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-20 23:42:59,129 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-20 23:43:07,145 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-20 23:43:13,498 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-20 23:45:04,312 - Testbase -INFO - HI I AM WORKING!!
+2021-01-20 23:45:08,837 - Testbase -INFO - Hotels page is loaded
+2021-01-20 23:45:15,171 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-20 23:50:48,247 - Testbase -INFO - HI I AM WORKING!!
+2021-01-20 23:50:57,427 - Testbase -INFO - Hotels page is loaded
+2021-01-20 23:51:04,827 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-20 23:51:12,305 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-20 23:53:09,523 - Testbase -INFO - Signin process started
+2021-01-20 23:53:11,673 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:53:16,082 - Testbase -INFO - Username entered
+2021-01-20 23:53:16,425 - Testbase -INFO - Password entered
+2021-01-20 23:53:17,043 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:53:17,361 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-20 23:53:41,670 - Testbase -INFO - Signin process started
+2021-01-20 23:53:41,890 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:53:46,099 - Testbase -INFO - Username entered
+2021-01-20 23:53:46,235 - Testbase -INFO - Password entered
+2021-01-20 23:53:46,638 - Testbase -INFO - Sign in button clicked
+2021-01-20 23:53:46,967 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-20 23:55:09,290 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-20 23:55:18,968 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-20 23:55:23,725 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-20 23:56:44,031 - Testbase -INFO - HI I AM WORKING!!
+2021-01-20 23:56:50,524 - Testbase -INFO - Hotels page is loaded
+2021-01-20 23:56:53,464 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-20 23:57:00,228 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 07:52:36,795 - Testbase -INFO - HI I AM WORKING!!
+2021-01-21 07:52:50,963 - Testbase -INFO - Hotels page is loaded
+2021-01-21 07:52:55,255 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 07:53:02,206 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 07:53:14,203 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 07:53:47,911 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 07:53:59,132 - Testbase -INFO - User Successfully Logged in
+2021-01-21 07:54:09,582 - Testbase -INFO - Error msg for blank first name field is checked
+2021-01-21 07:54:46,270 - Testbase -INFO - Signin process started
+2021-01-21 07:54:48,322 - Testbase -INFO - Sign in button clicked
+2021-01-21 07:54:54,462 - Testbase -INFO - Username entered
+2021-01-21 07:54:54,829 - Testbase -INFO - Password entered
+2021-01-21 07:54:56,547 - Testbase -INFO - Sign in button clicked
+2021-01-21 07:54:56,782 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 07:55:23,424 - Testbase -INFO - Signin process started
+2021-01-21 07:55:23,683 - Testbase -INFO - Sign in button clicked
+2021-01-21 07:55:27,946 - Testbase -INFO - Username entered
+2021-01-21 07:55:28,106 - Testbase -INFO - Password entered
+2021-01-21 07:55:28,561 - Testbase -INFO - Sign in button clicked
+2021-01-21 07:55:28,865 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 07:56:31,595 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 07:56:40,236 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 07:56:48,076 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-21 07:58:17,230 - Testbase -INFO - HI I AM WORKING!!
+2021-01-21 07:58:19,233 - Testbase -INFO - Hotels page is loaded
+2021-01-21 07:58:27,285 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 07:58:33,879 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 07:58:43,411 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 07:59:33,168 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 07:59:44,768 - Testbase -INFO - User Successfully Logged in
+2021-01-21 07:59:55,170 - Testbase -INFO - Error msg for blank first name field is checked
+2021-01-21 08:42:58,223 - Testbase -INFO - Hotels page is loaded
+2021-01-21 08:42:59,244 - Testbase -INFO - Hotels page is loaded
+2021-01-21 08:43:02,223 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 08:43:03,500 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 08:43:04,360 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 08:43:10,044 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 08:43:10,461 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 08:43:42,698 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 08:43:53,918 - Testbase -INFO - User Successfully Logged in
+2021-01-21 08:43:58,985 - Testbase -INFO - This test Method is Deliberately Failed!
+2021-01-21 08:44:28,354 - Testbase -INFO - Signin process started
+2021-01-21 08:44:29,029 - Testbase -INFO - FB login process started
+2021-01-21 08:44:29,691 - Testbase -INFO - FB registration process started
+2021-01-21 08:44:36,573 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 08:44:44,403 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 08:44:45,839 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 08:45:02,698 - Testbase -INFO - Signin process started
+2021-01-21 08:45:07,792 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 08:45:08,236 - Testbase -INFO - FB login process started
+2021-01-21 08:45:09,250 - Testbase -INFO - FB registration process started
+2021-01-21 08:45:35,778 - Testbase -INFO - Valid FB credentials(Verified by reading the URL)
+2021-01-21 08:46:26,573 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 08:46:36,967 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 08:46:40,898 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-21 08:47:59,557 - Testbase -INFO - Hotels page is loaded
+2021-01-21 08:48:02,167 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 08:48:02,885 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 08:48:08,726 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 08:48:29,191 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 08:48:40,903 - Testbase -INFO - User Successfully Logged in
+2021-01-21 08:48:45,992 - Testbase -INFO - This test Method is Deliberately Failed!
+2021-01-21 08:57:33,043 - Testbase -INFO - Hotels page is loaded
+2021-01-21 08:57:34,062 - Testbase -INFO - Hotels page is loaded
+2021-01-21 08:57:37,704 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 08:57:38,103 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 08:57:39,294 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 08:57:44,383 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 08:57:49,722 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 08:58:25,497 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 08:58:37,278 - Testbase -INFO - User Successfully Logged in
+2021-01-21 08:58:42,390 - Testbase -INFO - This test Method is Deliberately Failed!
+2021-01-21 08:59:06,648 - Testbase -INFO - Registration process started
+2021-01-21 08:59:07,669 - Testbase -INFO - FB registration process started
+2021-01-21 08:59:07,824 - Testbase -INFO - Signin process started
+2021-01-21 08:59:07,977 - Testbase -INFO - FB login process started
+2021-01-21 08:59:14,328 - Testbase -INFO - The Mobile number entered is valid
+2021-01-21 08:59:16,690 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 08:59:22,122 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 08:59:26,000 - Testbase -INFO - Registration process started
+2021-01-21 08:59:28,777 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 08:59:28,845 - Testbase -INFO - The Mobile number entered is invalid create defect report
+2021-01-21 08:59:43,491 - Testbase -INFO - Signin process started
+2021-01-21 08:59:46,359 - Testbase -INFO - FB registration process started
+2021-01-21 08:59:48,676 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 08:59:53,536 - Testbase -INFO - FB login process started
+2021-01-21 09:00:10,799 - Testbase -INFO - FB registration Successful(Verified by reading URl)
+2021-01-21 09:00:21,892 - Testbase -INFO - Valid FB credentials(Verified by reading the URL)
+2021-01-21 09:00:43,947 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 09:00:51,467 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 09:00:58,409 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-21 09:12:30,413 - Testbase -INFO - Hotels page is loaded
+2021-01-21 09:12:33,218 - Testbase -INFO - Hotels page is loaded
+2021-01-21 09:12:37,257 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 09:12:38,205 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 09:12:39,699 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 09:12:44,192 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 09:12:46,925 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 09:12:52,950 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 09:13:25,546 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 09:13:36,566 - Testbase -INFO - User Successfully Logged in
+2021-01-21 09:13:41,761 - Testbase -INFO - This test Method is Deliberately Failed!
+2021-01-21 09:13:42,696 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 09:13:53,797 - Testbase -INFO - User Successfully Logged in
+2021-01-21 09:14:36,370 - Testbase -INFO - FB registration process started
+2021-01-21 09:14:36,604 - Testbase -INFO - Signin process started
+2021-01-21 09:14:37,182 - Testbase -INFO - FB login process started
+2021-01-21 09:14:37,927 - Testbase -INFO - Registration process started
+2021-01-21 09:14:42,654 - Testbase -INFO - The Mobile number entered is valid
+2021-01-21 09:14:45,338 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 09:14:53,622 - Testbase -INFO - Registration process started
+2021-01-21 09:14:54,576 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 09:14:55,572 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 09:14:56,461 - Testbase -INFO - The Mobile number entered is invalid create defect report
+2021-01-21 09:15:09,296 - Testbase -INFO - Signin process started
+2021-01-21 09:15:14,187 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 09:15:17,945 - Testbase -INFO - FB registration process started
+2021-01-21 09:15:22,740 - Testbase -INFO - FB login process started
+2021-01-21 09:15:41,830 - Testbase -INFO - FB registration Successful(Verified by reading URl)
+2021-01-21 09:16:01,876 - Testbase -INFO - Valid FB credentials(Verified by reading the URL)
+2021-01-21 09:16:24,612 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 09:16:31,841 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 09:16:34,931 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.
+2021-01-21 09:52:57,888 - Testbase -INFO - Hotels page is loaded
+2021-01-21 09:53:02,480 - Testbase -INFO - Hotels page is loaded
+2021-01-21 09:53:05,374 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 09:53:14,629 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 09:53:29,832 - Testbase -INFO - This test Method is Deliberately Failed!
+2021-01-21 13:38:16,687 - Testbase -INFO - Hotels page is loaded
+2021-01-21 13:38:19,837 - Testbase -INFO - Hotels page is loaded
+2021-01-21 13:38:23,301 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 13:38:27,249 - Testbase -INFO - City of the Hotel to be booked and check-in and check-out dates are entered
+2021-01-21 13:38:28,893 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 13:38:31,297 - Testbase -INFO - The Number of Rooms and Traveller Count-(Adult/Children) are entered and Hotels list is produced
+2021-01-21 13:38:44,282 - Testbase -INFO - A convinient hotel from the list is selected
+2021-01-21 13:39:20,952 - Testbase -INFO - A convinient Room and Package is selected
+2021-01-21 13:39:33,236 - Testbase -INFO - User Successfully Logged in
+2021-01-21 13:39:38,354 - Testbase -INFO - This test Method is Deliberately Failed!
+2021-01-21 13:40:18,066 - Testbase -INFO - FB registration process started
+2021-01-21 13:40:18,741 - Testbase -INFO - Registration process started
+2021-01-21 13:40:19,543 - Testbase -INFO - Signin process started
+2021-01-21 13:40:23,806 - Testbase -INFO - FB login process started
+2021-01-21 13:40:24,724 - Testbase -INFO - The Mobile number entered is valid
+2021-01-21 13:40:35,898 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 13:40:55,665 - Testbase -INFO - Registration process started
+2021-01-21 13:41:00,002 - Testbase -INFO - The Mobile number entered is invalid create defect report
+2021-01-21 13:41:05,958 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 13:41:09,134 - Testbase -INFO - Invalid FB credentials(Verified by reading the error message)
+2021-01-21 13:41:13,236 - Testbase -INFO - Signin process started
+2021-01-21 13:41:20,639 - Testbase -INFO - Invalid Clear Trip credentials(Verified by reading the error message
+2021-01-21 13:41:31,918 - Testbase -INFO - FB registration process started
+2021-01-21 13:41:38,257 - Testbase -INFO - FB login process started
+2021-01-21 13:41:58,453 - Testbase -INFO - FB registration Successful(Verified by reading URl)
+2021-01-21 13:42:07,391 - Testbase -INFO - Valid FB credentials(Verified by reading the URL)
+2021-01-21 13:42:35,420 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 13:42:47,639 - Testbase -INFO - I am testing the searching feature of one way of the website!!!!.These are for invalid input.
+2021-01-21 13:42:55,320 - Testbase -INFO - I am testing the booking feature of one way of the website!!!!.These are for valid input.

@@ -1,0 +1,338 @@
+<html>
+<head>
+<title>TestNG:  Sign/Register</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Sign/Register</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 20 12:45:35 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>129 seconds (129927 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.RegisterScripts.signUpWithClearTrip()'><b>signUpWithClearTrip</b><br>Test class: com.qa.tests.RegisterScripts<br>Parameters: cdxsx5oppwej347ub@gmail.com, Test@1234, Mr, Henry, Ford, India(+91), 9160894224</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;profile_title&quot;}
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;AyushiLaptop&apos;, ip: &apos;10.10.10.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:56693}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir16900_644104715}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 387cc253733098922b46df166a84f248
+*** Element info: {Using=id, value=profile_title}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:44)
+	at com.qa.pages.SignInandRegisterPages.selectTitleUnderRegister(SignInandRegisterPages.java:125)
+	at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:62)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace689601531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace689601531'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;profile_title&quot;}
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;AyushiLaptop&apos;, ip: &apos;10.10.10.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:56693}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir16900_644104715}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 387cc253733098922b46df166a84f248
+*** Element info: {Using=id, value=profile_title}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:44)
+	at com.qa.pages.SignInandRegisterPages.selectTitleUnderRegister(SignInandRegisterPages.java:125)
+	at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>36</td>
+<td>com.qa.tests.RegisterScripts@22f31dec</td></tr>
+<tr>
+<td title='com.qa.tests.RegisterScripts.signUpWithClearTrip()'><b>signUpWithClearTrip</b><br>Test class: com.qa.tests.RegisterScripts<br>Parameters: bbbhoioi9@gmail.com, Test@1234, Ms, Alice, Morgan, India(+91), 9885688rty</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;userAccountLink&quot;]/span[2]&quot;}
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;AyushiLaptop&apos;, ip: &apos;10.10.10.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:56693}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir16900_644104715}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 387cc253733098922b46df166a84f248
+*** Element info: {Using=xpath, value=//*[@id=&quot;userAccountLink&quot;]/span[2]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.qa.pages.SignInandRegisterPages.clickYourTripsButton(SignInandRegisterPages.java:41)
+	at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace845623021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace845623021'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;userAccountLink&quot;]/span[2]&quot;}
+  (Session info: MicrosoftEdge=87.0.664.75)
+  (Driver info: msedgedriver=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;AyushiLaptop&apos;, ip: &apos;10.10.10.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=msedge, takesScreenshot=true, javascriptEnabled=true, ms:edgeOptions={debuggerAddress=localhost:56693}, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, takesHeapSnapshot=true, msedge={msedgedriverVersion=87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}), userDataDir=C:\Users\PRAKTI~1\AppData\Local\Temp\scoped_dir16900_644104715}, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.664.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 387cc253733098922b46df166a84f248
+*** Element info: {Using=xpath, value=//*[@id=&quot;userAccountLink&quot;]/span[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.qa.pages.SignInandRegisterPages.clickYourTripsButton(SignInandRegisterPages.java:41)
+	at com.qa.tests.RegisterScripts.signUpWithClearTrip(RegisterScripts.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>20</td>
+<td>com.qa.tests.RegisterScripts@22f31dec</td></tr>
+<tr>
+<td title='com.qa.tests.FbRegisterScripts.signUpWithFb()'><b>signUpWithFb</b><br>Test class: com.qa.tests.FbRegisterScripts<br>Parameters: ravibaloo123@gmail.com, wrongpass<br/>
+<a href="#Output-34223568" onClick='toggleBox("Output-34223568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-34223568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-34223568">
+Invalid FB credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.tests.FbRegisterScripts.signUpWithFb(FbRegisterScripts.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace34223568", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace34223568'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.FbRegisterScripts.signUpWithFb(FbRegisterScripts.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>16</td>
+<td>com.qa.tests.FbRegisterScripts@e57b96d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.SignInScripts.clearTripLogin()'><b>clearTripLogin</b><br>Test class: com.qa.tests.SignInScripts<br>Parameters: ravibaloo123@gmail.com, wrongpass<br/>
+<a href="#Output-402146255" onClick='toggleBox("Output-402146255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402146255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402146255">
+Invalid Clear Trip credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.SignInScripts@2c07545f</td></tr>
+<tr>
+<td title='com.qa.tests.SignInScripts.clearTripLogin()'><b>clearTripLogin</b><br>Test class: com.qa.tests.SignInScripts<br>Parameters: ravibaloo123@gmail.com, Test@1234<br/>
+<a href="#Output-1769134649" onClick='toggleBox("Output-1769134649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1769134649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1769134649">
+Invalid Clear Trip credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.SignInScripts@2c07545f</td></tr>
+<tr>
+<td title='com.qa.tests.FbSignInScripts.loginWithFb()'><b>loginWithFb</b><br>Test class: com.qa.tests.FbSignInScripts<br>Parameters: ravibaloo123@gmail.com, wrongpass<br/>
+<a href="#Output-86797145" onClick='toggleBox("Output-86797145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-86797145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-86797145">
+Invalid FB credentials(Verified by reading the error message)<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.qa.tests.FbSignInScripts@32c726ee</td></tr>
+<tr>
+<td title='com.qa.tests.FbSignInScripts.loginWithFb()'><b>loginWithFb</b><br>Test class: com.qa.tests.FbSignInScripts<br>Parameters: ravibaloo123@gmail.com, Test@1234<br/>
+<a href="#Output-274915428" onClick='toggleBox("Output-274915428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-274915428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-274915428">
+Valid FB credentials(Verified by reading the URL)<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.qa.tests.FbSignInScripts@32c726ee</td></tr>
+<tr>
+<td title='com.qa.tests.FbRegisterScripts.signUpWithFb()'><b>signUpWithFb</b><br>Test class: com.qa.tests.FbRegisterScripts<br>Parameters: ravibaloo123@gmail.com, Test@1234<br/>
+<a href="#Output-222222330" onClick='toggleBox("Output-222222330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-222222330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-222222330">
+FB registration Successful(Verified by reading URl)<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.qa.tests.FbRegisterScripts@e57b96d</td></tr>
+</table><p>
+</body>
+</html>
